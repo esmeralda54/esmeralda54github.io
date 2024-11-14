@@ -1,0 +1,276 @@
+.banner {
+     
+height: 50%;
+    width: 100%;
+    position: absolute;
+}
+header{
+    background-image: url(imagenes/coci.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 60%;
+    width: 100%;
+    color: #dde0e2;
+}
+    
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(17, 116, 146);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.pa{
+    background-color: rgba(9, 22, 22, 0.342);
+   
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    background-color: rgba(245, 245, 245, 0.651);
+    height: 15%;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%; 
+}
+
+.parra{
+    background-color: rgba(37, 34, 34, 0.493);
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    
+    left: 100px;
+    position: relative ;
+    width: 25%;
+    margin: 0 auto;
+    justify-content: end;
+    align-items: center;
+    border-radius: 5%;
+    font-size: 20%;
+
+}
+
+body{
+   margin:0 ;
+   height: 100vh;
+   background-color: rgba(7, 7, 7, 0.63);
+   background-size: cover;
+   background-repeat: repeat;
+   background-position: center;
+   color: rgb(18, 18, 19);
+   background-image: url(imagenes/ner.jpg);
+}
+h1{
+    align-content: center;
+    font-family: fantasy;
+    font-size: 90px;
+    text-align: center;
+    color: rgb(35, 165, 165);
+}
+/*.doshijo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(100, 238, 238);
+    height: 300px;
+    width: 100px;
+    position: relative;
+}*/
+.parrafo{
+    background-color: rgba(89, 151, 231, 0.719);
+    height: 52px;
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+    left: 100px;
+    position: relative ;
+    width: 52%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    color: aliceblue;  
+   
+}
+video{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    left: 400px;
+}
+
+.uno{
+    background-color: rgba(49, 91, 180, 0.733);
+    height: 20%;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0.651);
+    height: 50%;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+img{
+    height: 40%;
+    width: 40%;
+    border: 5px solid rgb(0, 0, 0);
+    
+    left: 500px;
+    position: relative;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0.5);
+    transition: transform 0.3s, box shadow 0.3s;
+    
+    
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: left;
+}
+
+
+
+.contact-form {
+    background-color: white;
+    padding: 49px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    left: 400px;
+    position: relative;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form textarea {
+    resize: vertical; /* Permite cambiar el tamaño solo verticalmente */
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 20px;
+    background-color: #4c6fafd5;
+    color: rgb(121, 124, 172);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #17166b;
+}
+table {
+    width: 80%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: rgb(177, 183, 190);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    position: relative;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4c74af;
+    color: white;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
